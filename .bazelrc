@@ -7,4 +7,6 @@ build --worker_sandboxing
 build --nolegacy_external_runfiles
 build --strict_filesets
 build --incompatible_strict_action_env
+build --experimental_reuse_sandbox_directories
+
 test --test_output=all
